@@ -1,0 +1,25 @@
+in this project i got familiar with:
+
+1. Importing Tensorflow into a Notebook
+2. Building a Deep Neural Network with Fully Connected Layers
+3. Training/Fitting a Tensorflow Network
+4. Training the model and make predictions on test data with Pandas
+5. Calculating Accuracy from Tensorflow Predictions
+6. Save your model to disc and reload it to a Jupyter Notebook for reuse
+
+Pandas is a library which allows data manipulation meaning we can analyze and prepare
+data before doing a train test split which will train our neural network 
+
+Neural networks are capable of learning highly complex and non-linear relationships 
+between inputs and outputs. This ability allows them to perform tasks that are difficult
+or impossible for traditional algorithms,
+
+Using a neural network for a churn prediction is not necessary but i needed to see an example
+of neural network implementation  before i started the action recognition project where i 
+will be  Building and Training an LSTM Deep Learning Model
+
+LSTM (Long Short-Term Memory) model is a type of recurrent neural network (RNN) specifically
+designed to handle sequences of data and capture long-term dependencies. It is particularly
+effective in situations where the order of data matters,just like the order of the frames
+that we are going to provide the model for training matter.This frames 
+will alter on be used to distinguish the action we are doing on the screen. 

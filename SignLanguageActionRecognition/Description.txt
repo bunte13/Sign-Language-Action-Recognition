@@ -1,0 +1,20 @@
+in this project i got familiar with:
+1. Extracting MediaPipe Holistic Keypoints
+2. Building a Sign Language model using a Action Detection powered by LSTM layers
+3. Predicting sign language in real time using video sequences
+
+This project is made to demonstrate how using the MediaPipe and OpenCV libraries, using Tensorflow
+you can train a model that detects Sign Language Actions .
+
+what i did to make this possible:
+ 1. Install and Import Dependencies
+ 2. Detect Face, Hand and Pose Landmarks 
+ 3. Extract Keypoints
+ 4. Setup Folders for Data Collection
+ 5. Collect Keypoint Sequences
+ 6. Preprocess Data and Create Labels
+ 7. Build and Train an LSTM Deep Learning Model
+ 8. Make Sign Language Predictions
+ 9. Save Model Weights
+ 10. Evaluation using a Confusion Matrix
+ 11. Test in Real Time

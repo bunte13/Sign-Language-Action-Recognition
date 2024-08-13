@@ -1,0 +1,13 @@
+by doing this project i got familiar with:
+1. how to set up MediaPipe for Python
+2. Estimate hand poses using MediaPipe Hands
+3. Output images with detections using OpenCV
+
+MediaPipe is a machine learning library, I used its hand detection features to 
+distinguish my hands and show the landmarks of differend joints on my hands on the screen.
+this is useful since I am going to be working on an action recognition model which will 
+utilize landmarks of my whole body (MediaPipe Holistic)
+
+OpenCV implementation - an image processing library which is used to display the input from the camera
+and draw the landmarks on the screen, this library is going to be used later on for 
+drawing the Actions the model is going to be detecting in the Action Recognition project
